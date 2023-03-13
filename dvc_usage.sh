@@ -10,4 +10,4 @@ pip install dvc[s3]
 
 # pull files
 # cd MSSC_DVC
-dvc pull data.zip
+python3 -m dvc pull data.zip
