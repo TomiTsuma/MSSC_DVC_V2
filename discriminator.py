@@ -45,7 +45,7 @@ model = patchGANDsc(image_shape=np.shape(human_dataset[0]))
 model.summary()
 
 
-model.fit(X,y, epochs=30, batch_size=32, shuffle=True)
+model.fit(X,y, epochs=30, batch_size=2, shuffle=True)
 
 y_preds = model.predict(X)
 report = (classification_report(y_preds,y))
