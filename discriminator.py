@@ -29,9 +29,6 @@ try:
     human_dataset = load_real_samples('human_arr.npz', 'arr_0')
 except Exception as e:
     print(e)
-    f= open("report.txt","w+")
-    f.write(f"{e}")
-    f.close()
 
 print(np.shape(human_dataset))
 
@@ -45,10 +42,8 @@ model = patchGANDsc(image_shape=np.shape(human_dataset[0]))
 model.summary()
 
 
-model.fit(X,y, epochs=30, batch_size=2, shuffle=True)
+model.fit(X,y, epochs=30, shuffle=True)
 
 y_preds = model.predict(X)
 report = (classification_report(y_preds,y))
-f= open("report.txt","w+")
-f.write(f"{report}")
-f.close()
+print(classification_report)
