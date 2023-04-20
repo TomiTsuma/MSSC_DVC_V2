@@ -21,4 +21,4 @@ sudo apt install dvc
 
 # pull files
 # cd MSSC_DVC
-dvc pull data.zip
+dvc pull high_low_val_method_1.zip
