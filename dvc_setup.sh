@@ -14,8 +14,8 @@ python -m dvc remote modify storage endpointurl https://ams3.digitaloceanspaces.
 export AWS_ACCESS_KEY_ID=${DO_AWS_ACCESS_KEY_ID}
 export AWS_SECRET_ACCESS_KEY=${DO_AWS_ACCESS_KEY}
 
-python -m dvc add high_low_val_method_1.zip
-python -m dvc push high_low_val_method_1.zip
+python -m dvc add high_low_val_method_2.zip
+python -m dvc push high_low_val_method_2.zip
 
 
 
