@@ -1,0 +1,5 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = s3://spectral-models
+    endpointurl = https://ams3.digitaloceanspaces.com

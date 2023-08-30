@@ -1,0 +1,7 @@
+/data.zip
+*.zip
+*.csv
+*.tar.gz
+
+/dvc_setup.sh
+/*.sh
