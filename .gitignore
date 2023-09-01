@@ -3,5 +3,5 @@
 *.csv
 *.tar.gz
 
-/dvc_setup.sh
-/*.sh
+# /dvc_setup.sh
+# /*.sh
