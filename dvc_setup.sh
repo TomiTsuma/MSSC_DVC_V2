@@ -9,8 +9,7 @@ DO_AWS_ACCESS_KEY=qw7fwzXbo90pYNVgybQbodide616IklbcR21y6G8EOI
 # python -m dvc init
 python -m dvc remote add --default storage s3://spectral-models -f
 python -m dvc remote modify storage endpointurl https://ams3.digitaloceanspaces.com
-export AWS_ACCESS_KEY_ID=${DO_AWS_ACCESS_KEY_ID}
-export AWS_SECRET_ACCESS_KEY=${DO_AWS_ACCESS_KEY}
+
 
 python -m dvc add data.zip
 python -m dvc push data.zip
