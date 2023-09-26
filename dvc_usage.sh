@@ -17,7 +17,13 @@ sudo apt install python3-pip
 pip3 install dvc==3.15.3
 pip3 install dvc-s3
 
-
 # pull files
 # cd MSSC_DVC
-dvc pull data.zip
+dvc pull data.zip &
+
+sudo apt install unzip &
+unzip data.zip
+
+wait
+
+
