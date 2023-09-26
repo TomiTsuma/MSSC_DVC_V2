@@ -14,8 +14,8 @@ export AWS_SECRET_ACCESS_KEY=${DO_AWS_ACCESS_KEY}
 sudo apt remove python3.8
 sudo apt install python3.8
 sudo apt install python3-pip
-pip install dvc==3.15.3
-pip install dvc-s3
+pip3 install dvc==3.15.3
+pip3 install dvc-s3
 
 
 # pull files
