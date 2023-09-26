@@ -21,5 +21,3 @@ pip install dvc-s3
 # pull files
 # cd MSSC_DVC
 dvc pull data.zip
-==3.15.3
-dvc 
