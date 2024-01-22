@@ -1,4 +1,3 @@
-
 DO_AWS_ACCESS_KEY_ID=DO00JVCF7VU9NR8R9KUC
 DO_AWS_ACCESS_KEY=qw7fwzXbo90pYNVgybQbodide616IklbcR21y6G8EOI 
 
@@ -15,10 +14,9 @@ sudo apt remove python3.8 -y
 sudo apt install python3.8 -y
 sudo apt install python3-pip -y
 pip3 install dvc==3.15.3
+pip3 install --upgrade dvc
 pip3 install dvc-s3
 
 # pull files
 # cd MSSC_DVC
 dvc pull data.zip
-
-
