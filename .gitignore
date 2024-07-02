@@ -1,0 +1,11 @@
+/data.zip
+*.zip
+*.csv
+*.tar.gz
+*.pickle
+/model
+/spc
+/wetchem
+
+# /dvc_setup.sh
+# /*.sh
