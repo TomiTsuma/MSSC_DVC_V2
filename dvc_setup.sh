@@ -20,4 +20,4 @@ git config --global user.name "TomiTsuma"
 git config --global user.email "tommytsuma7@gmail.com"
 git add data.zip.dvc
 git commit -m "Latest data changes"
-git push
+git push origin HEAD
