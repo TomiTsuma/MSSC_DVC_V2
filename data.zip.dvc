@@ -1,8 +1,7 @@
 outs:
-- md5: 3e5b47d5eb190120c6792d5fac97c963
-  size: 96
+- md5: ccf8fbee4ba6e9233f81cd251c161cc6
+  size: 285913208
   path: data.zip
   hash: md5
 
 
-  isexec: true
