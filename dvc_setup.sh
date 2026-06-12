@@ -1,10 +1,7 @@
 #!/bin/bash
 # Run these commands in a bash terminal (Supply the Access credentials and github username first)
 #python pip install dvc --user
-#python pip install "dvc[s3]" --user
-
-DO_AWS_ACCESS_KEY_ID=DO00JVCF7VU9NR8R9KUC
-DO_AWS_ACCESS_KEY=qw7fwzXbo90pYNVgybQbodide616IklbcR21y6G8EOI   
+#python pip install "dvc[s3]" --user  
 export AWS_ACCESS_KEY_ID=${DO_AWS_ACCESS_KEY_ID}
 export AWS_SECRET_ACCESS_KEY=${DO_AWS_ACCESS_KEY}
 # cd D://CropNutsDocuments/MSSC_DVC
