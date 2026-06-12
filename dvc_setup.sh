@@ -15,6 +15,6 @@ python -m dvc push data.zip
 
 git config --global user.name "TomiTsuma"
 git config --global user.email "tommytsuma7@gmail.com"
-git add data.zip.dvc
+git add .
 git commit -m "Latest data changes"
 git push origin HEAD
