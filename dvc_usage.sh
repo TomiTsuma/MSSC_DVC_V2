@@ -12,12 +12,12 @@ export AWS_SECRET_ACCESS_KEY=${DO_AWS_ACCESS_KEY}
 # sudo apt install python3.8 -y
 # sudo apt install python3-pip -y
 
-/home/${DO_USERNAME}/dl-env/bin/pip install dvc
-/home/${DO_USERNAME}/dl-env/bin/pip install dvc-s3
+/home/tom/dl-env/bin/pip install dvc
+/home/tom/dl-env/bin/pip install dvc-s3
 
 # pull files
 # cd MSSC_DVC
-source /home/${DO_USERNAME}/dl-env/bin/activate
+source /home/tom/dl-env/bin/activate
 dvc pull data.zip
 
 
