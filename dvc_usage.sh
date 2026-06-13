@@ -17,4 +17,7 @@ export AWS_SECRET_ACCESS_KEY=${DO_AWS_ACCESS_KEY}
 
 # pull files
 # cd MSSC_DVC
+source /home/${DO_USERNAME}/dl-env/bin/activate
 dvc pull data.zip
+
+
